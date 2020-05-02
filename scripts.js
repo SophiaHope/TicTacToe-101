@@ -50,9 +50,10 @@ const addMarker = (id) => {
   // .getElementById(id)
   // document
   // .innerHTML 
+  document.getElementById(id).innerHTML=currentMarker
 
   changeMarker()
-} document.getElementById(id) .innerHTML=currentMarker
+} 
 
 
 
@@ -94,7 +95,7 @@ const resetBoard = () => {
   // document
   // const
 
-  const document.getElementsByTagName("TD")=squares
+  const squares = document.getElementsByTagName("TD")
   
   // loops over the HTML Collection of TDs and clears out the Xs and Os
   for (i=0; i < squares.length; i++) {
